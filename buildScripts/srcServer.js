@@ -27,3 +27,5 @@ app.listen(port, function(err){
 		open('http://localhost:' + port);
 	}
 });
+
+process.title = "myApp";
