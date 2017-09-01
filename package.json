@@ -9,8 +9,7 @@
     "lint": "esw webpack.config.*  src  buildScripts --color",
     "lint:watch": "npm run lint -- --watch",
     "security-check" : "nsp check",
-    "share" : "lt -p 3000",
-    "stop" : "pkill --signal SIGINT myApp"
+    "share" : "lt -p 3000"
   },
   "author": "Cory House",
   "license": "MIT",
